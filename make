@@ -346,7 +346,7 @@ find_openwrt() {
             case "${source_codename}" in
             official) OPENWRT_SOURCECODE="github.com/openwrt/openwrt" ;;
             lede) OPENWRT_SOURCECODE="github.com/coolsnowwolf/lede" ;;
-            istoreos) OPENWRT_SOURCECODE="github.com/istoreos/istoreos" ;;
+            istoreos) OPENWRT_SOURCECODE="github.com/langlichuan123/istoreos" ;;
             immortalwrt) OPENWRT_SOURCECODE="github.com/immortalwrt/immortalwrt" ;;
             *) OPENWRT_SOURCECODE="unknown" ;;
             esac
