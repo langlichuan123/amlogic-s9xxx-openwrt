@@ -16,7 +16,7 @@ on:
         type: choice
         options:
           - openwrt-main
-          - istoreos-master
+          - istoreos
           - lede-master
           - immortalwrt-master
       openwrt_board:
