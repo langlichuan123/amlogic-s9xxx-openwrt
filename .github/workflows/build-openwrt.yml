@@ -12,7 +12,7 @@ on:
       source_branch:
         description: "Select the source branch"
         required: false
-        default: "openwrt-main"
+        default: "istoreos"
         type: choice
         options:
           - openwrt-main
@@ -22,7 +22,7 @@ on:
       openwrt_board:
         description: "Select device board"
         required: false
-        default: "all"
+        default: "s905x3-h96max"
         type: choice
         options:
           - all
@@ -165,7 +165,7 @@ on:
       openwrt_kernel:
         description: "Select kernel version"
         required: false
-        default: "6.1.y_6.6.y"
+        default: "5.10.y"
         type: choice
         options:
           - 5.4.y
